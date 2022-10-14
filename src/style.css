@@ -1,0 +1,118 @@
+body { 
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.cartao{
+    margin: 100px;
+    width: 350px;
+    padding: 30px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 14px;
+      
+}
+
+.info-card{
+    font-size: 18px;
+    color:  hsl(0, 0%, 100%);
+  
+}
+
+.info-card img{
+    width: 350px;
+    border-radius: 15px;
+}
+
+.cartao .sub-info {
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.info-prices {
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        gap: 3px;
+        color: hsl(215, 51%, 70%);
+        margin-bottom: 10px;
+}
+
+.info-prices .price {
+    padding-right: 50px;
+   
+
+}
+.info-prices #img2clock {
+    margin-top: 15px;
+    
+    
+    
+}
+.info-prices #img1eth {
+    margin-top: 14px;
+    
+}
+.info-prices .price {
+    margin-right: 120px;
+    color: hsl(178, 100%, 50%);
+}
+
+
+.info-creator{
+    padding-top: 11px;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    gap: 2px;
+    display: flex; /*display flex pra q eu consiga mover as coisas*/
+    flex-direction: row; /*flex direction row é linha, collum é colunas e etc*/
+    
+
+}
+
+.info-creator #creator{
+    padding-top: 13px;
+    font-size: 13px;
+    color: hsl(215, 51%, 70%);
+
+}
+
+.info-creator #name-creator {
+    padding-top: 13px;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    margin-left: 4px;
+}
+
+.info-creator img{
+    width: 37px;
+    height: 37px;
+    margin: 12px;
+    border-radius: 50px;
+    border: 2px solid #95bebf;
+}
+
+
+
+
+
+
+
+
+/*animacao*/
+
+
+.title{
+    transition: font-size 0.1s ease-out;
+}
+
+.title:hover{
+    font-size: 40px;
+
+}
